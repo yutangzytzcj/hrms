@@ -1,0 +1,1422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="hrms:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2df6250a-200d-436e-ad85-252888b9d5a1" name="Default Changelist" comment="v1">
+      <change afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiyanlou/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiyanlou/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiyanlou/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiyanlou/controller/PositionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiyanlou/controller/PostController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiyanlou/dao/AdminDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiyanlou/dao/DepartmentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiyanlou/dao/EmployeeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiyanlou/dao/PositionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiyanlou/dao/PostDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiyanlou/domain/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiyanlou/domain/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiyanlou/domain/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiyanlou/domain/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiyanlou/domain/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiyanlou/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiyanlou/service/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiyanlou/service/DepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiyanlou/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiyanlou/service/PositionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiyanlou/service/PostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiyanlou/service/impl/AdminServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiyanlou/service/impl/DepartmentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiyanlou/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiyanlou/service/impl/PositionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiyanlou/service/impl/PostServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiyanlou/util/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiyanlou/util/IntegrateObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiyanlou/util/JsonDateValueProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiyanlou/util/ResponseUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/hrms_db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/AdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/DepartmentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/EmployeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/PositionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/PostMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/item_do.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/jquery.percentageloader-0.1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/style(3).css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/tab.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/uploadify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/home_page.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/back.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/body_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/body_05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/body_06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/btn1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/btn2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/checkcode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/nocover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/pro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/changelog.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/accordion/_content.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/accordion/actions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/accordion/ajax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/accordion/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/accordion/datagrid_data1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/accordion/tools.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/calendar/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/calendar/firstday.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/combo/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/combobox/actions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/combobox/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/combobox/combobox_data1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/combobox/customformat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/combobox/dynamicdata.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/combobox/multiple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/combobox/navigation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/combobox/remotedata.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/combobox/remotejsonp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/combogrid/actions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/combogrid/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/combogrid/datagrid_data1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/combogrid/initvalue.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/combogrid/multiple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/combogrid/navigation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/combotree/actions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/combotree/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/combotree/initvalue.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/combotree/multiple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/combotree/tree_data1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/datagrid/aligncolumns.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/datagrid/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/datagrid/cellstyle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/datagrid/checkbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/datagrid/clientpagination.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/datagrid/columngroup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/datagrid/complextoolbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/datagrid/contextmenu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/datagrid/custompager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/datagrid/datagrid_data1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/datagrid/datagrid_data2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/datagrid/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/datagrid/formatcolumns.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/datagrid/frozencolumns.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/datagrid/frozenrows.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/datagrid/mergecells.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/datagrid/products.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/datagrid/rowborder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/datagrid/rowediting.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/datagrid/rowstyle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/datagrid/selection.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/datagrid/simpletoolbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/datagrid/transform.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/datebox/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/datebox/dateformat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/datebox/events.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/datebox/validate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/datetimebox/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/datetimebox/initvalue.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/datetimebox/showseconds.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/dialog/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/dialog/complextoolbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/dialog/toolbarbuttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/draggable/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/draggable/constain.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/draggable/snap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/droppable/accept.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/droppable/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/droppable/sort.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/easyloader/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/form/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/form/form_data1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/form/load.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/layout/_content.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/layout/addremove.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/layout/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/layout/complex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/layout/datagrid_data1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/layout/full.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/layout/nestedlayout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/layout/nocollapsible.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/layout/propertygrid_data1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/layout/tree_data1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/linkbutton/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/linkbutton/group.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/linkbutton/iconalign.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/linkbutton/plain.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/linkbutton/toggle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/menu/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/menu/customitem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/menu/events.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/menubutton/actions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/menubutton/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/messager/alert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/messager/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/messager/interactive.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/messager/position.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/numberbox/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/numberbox/format.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/numberbox/range.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/numberspinner/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/numberspinner/increment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/numberspinner/range.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/pagination/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/pagination/custombuttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/pagination/simple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/panel/_content.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/panel/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/panel/customtools.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/panel/loadcontent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/panel/nestedpanel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/panel/paneltools.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/progressbar/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/propertygrid/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/propertygrid/customcolumns.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/propertygrid/groupformat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/propertygrid/propertygrid_data1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/resizable/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/searchbox/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/searchbox/category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/slider/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/slider/formattip.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/slider/rule.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/slider/vertical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/splitbutton/actions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/splitbutton/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/tabs/_content.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/tabs/autoheight.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/tabs/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/tabs/hover.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/tabs/nestedtabs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/tabs/striptools.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/tabs/tabposition.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/tabs/tabstools.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/tabs/tree_data1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/timespinner/actions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/timespinner/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/timespinner/range.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/tooltip/_content.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/tooltip/_dialog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/tooltip/ajax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/tooltip/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/tooltip/customcontent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/tooltip/customstyle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/tooltip/position.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/tooltip/toolbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/tooltip/tooltipdialog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/tree/actions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/tree/animation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/tree/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/tree/checkbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/tree/contextmenu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/tree/dnd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/tree/editable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/tree/icons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/tree/lines.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/tree/tree_data1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/tree/tree_data2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/treegrid/actions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/treegrid/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/treegrid/clientpagination.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/treegrid/contextmenu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/treegrid/editable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/treegrid/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/treegrid/reports.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/treegrid/treegrid_data1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/treegrid/treegrid_data2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/treegrid/treegrid_data3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/validatebox/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/validatebox/customtooltip.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/window/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/window/customtools.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/window/inlinewindow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/window/modalwindow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/demo/window/windowlayout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/easyloader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/jquery.easyui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/jquery.edatagrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/licence_gpl.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/license_commercial.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/locale/easyui-lang-af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/locale/easyui-lang-ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/locale/easyui-lang-bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/locale/easyui-lang-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/locale/easyui-lang-cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/locale/easyui-lang-cz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/locale/easyui-lang-da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/locale/easyui-lang-de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/locale/easyui-lang-el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/locale/easyui-lang-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/locale/easyui-lang-es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/locale/easyui-lang-fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/locale/easyui-lang-it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/locale/easyui-lang-jp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/locale/easyui-lang-nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/locale/easyui-lang-pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/locale/easyui-lang-pt_BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/locale/easyui-lang-ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/locale/easyui-lang-sv_SE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/locale/easyui-lang-tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/locale/easyui-lang-zh_CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/locale/easyui-lang-zh_TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/plugins/jquery.accordion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/plugins/jquery.calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/plugins/jquery.combo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/plugins/jquery.combobox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/plugins/jquery.combogrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/plugins/jquery.combotree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/plugins/jquery.datagrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/plugins/jquery.datebox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/plugins/jquery.datetimebox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/plugins/jquery.dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/plugins/jquery.draggable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/plugins/jquery.droppable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/plugins/jquery.form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/plugins/jquery.layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/plugins/jquery.linkbutton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/plugins/jquery.menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/plugins/jquery.menubutton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/plugins/jquery.messager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/plugins/jquery.numberbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/plugins/jquery.numberspinner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/plugins/jquery.pagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/plugins/jquery.panel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/plugins/jquery.parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/plugins/jquery.progressbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/plugins/jquery.propertygrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/plugins/jquery.resizable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/plugins/jquery.searchbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/plugins/jquery.slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/plugins/jquery.spinner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/plugins/jquery.splitbutton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/plugins/jquery.tabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/plugins/jquery.timespinner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/plugins/jquery.tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/plugins/jquery.tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/plugins/jquery.treegrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/plugins/jquery.validatebox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/plugins/jquery.window.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/src/easyloader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/src/jquery.accordion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/src/jquery.calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/src/jquery.combobox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/src/jquery.datebox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/src/jquery.draggable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/src/jquery.droppable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/src/jquery.form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/src/jquery.linkbutton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/src/jquery.menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/src/jquery.parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/src/jquery.progressbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/src/jquery.propertygrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/src/jquery.resizable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/src/jquery.slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/src/jquery.tabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/src/jquery.window.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/tooltip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/black/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/tooltip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/bootstrap/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/images/panel_tools11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/images/searchbox_butn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/tooltip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/default/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/tooltip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/gray/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/icon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/icons/back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/icons/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/icons/cancel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/icons/cut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/icons/edit_add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/icons/edit_remove.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/icons/filesave.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/icons/help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/icons/mini_add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/icons/mini_edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/icons/mini_refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/icons/no.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/icons/ok.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/icons/pencil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/icons/print.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/icons/redo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/icons/reload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/icons/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/icons/sum.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/icons/tip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/icons/undo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/tooltip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/metro/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/admin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/advice.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/advices.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/ceo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/chuku.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/confirm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/cpxxgl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/dayin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/dept.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/emp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/engh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/excel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/fahuo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/fenlei.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/fuwenben.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/fuwenbens.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/fwcj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/fwcl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/fwfk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/fwfp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/fwgd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/fwgl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/guanbi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/guanlian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/guanliyuan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/iconfont-shanchu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/iconfont-tianjia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/iconfont-xiugai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/iconfuwenben.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/item.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/jcsjgl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/jiantou.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/jiaocai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/jiaocaih.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/jiaofu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/jwjl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/kaiqi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/kaoh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/kaoyan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/kfcg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/khfwfx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/khgcfx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/khgl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/khgxfx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/khkfjh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/khlsfx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/khlsgl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/khxxgl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/lsdd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/lxr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/modifyPassword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/order.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/orderInfo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/password.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/pos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/post.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/qita.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/remen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/reset.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/ruku.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/saoma.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/school.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/schoolceo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/ser2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/shangjia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/shouye.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/shuben.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/shuguan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/shujia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/shujias.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/siji.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/sjzdgl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/sjzdlbgl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/student.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/students.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/sushe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/tag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/tags.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/tan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/tjbb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/tuichu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/tupian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/tupians.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/userh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/wenzhang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/wenzhangs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/xiajia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/xitong.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/xiugaimimaicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/yasi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/yxgl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/yxjhgl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/themes/usericons/zzkf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/ueditor.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-easyui-1.3.3/ueditor.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.percentageloader-0.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.uploadify.v2.0.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/percentageloader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/swfobject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/postContent.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/anchor/anchor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/attachment.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/attachment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/fileTypeImages/icon_chm.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/fileTypeImages/icon_default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/fileTypeImages/icon_doc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/fileTypeImages/icon_exe.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/fileTypeImages/icon_jpg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/fileTypeImages/icon_mp3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/fileTypeImages/icon_mv.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/fileTypeImages/icon_pdf.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/fileTypeImages/icon_ppt.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/fileTypeImages/icon_psd.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/fileTypeImages/icon_rar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/fileTypeImages/icon_txt.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/fileTypeImages/icon_xls.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/images/alignicon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/images/alignicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/images/file-icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/images/file-icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/images/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/images/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/images/progress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/images/success.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/background/background.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/background/background.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/background/background.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/background/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/background/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/charts/chart.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/charts/charts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/charts/charts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/charts/charts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/charts/images/charts0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/charts/images/charts1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/charts/images/charts2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/charts/images/charts3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/charts/images/charts4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/charts/images/charts5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/emotion/emotion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/emotion/emotion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/emotion/emotion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/emotion/images/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/emotion/images/bface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/emotion/images/cface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/emotion/images/fface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/emotion/images/jxface2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/emotion/images/neweditor-tab-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/emotion/images/tface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/emotion/images/wface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/emotion/images/yface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/gmap/gmap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/help/help.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/help/help.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/help/help.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/image/image.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/image/image.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/image/image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/image/images/alignicon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/image/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/image/images/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/image/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/image/images/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/image/images/progress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/image/images/success.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/image/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/insertframe/insertframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/internal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/link/link.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/map/map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/map/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/music/music.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/music/music.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/music/music.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/preview/preview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/scrawl/images/addimg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/scrawl/images/brush.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/scrawl/images/delimg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/scrawl/images/delimgH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/scrawl/images/empty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/scrawl/images/emptyH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/scrawl/images/eraser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/scrawl/images/redo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/scrawl/images/redoH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/scrawl/images/scale.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/scrawl/images/scaleH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/scrawl/images/size.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/scrawl/images/undo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/scrawl/images/undoH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/scrawl/scrawl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/scrawl/scrawl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/scrawl/scrawl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/searchreplace/searchreplace.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/searchreplace/searchreplace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/snapscreen/snapscreen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/spechars/spechars.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/spechars/spechars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/table/dragicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/table/edittable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/table/edittable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/table/edittable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/table/edittd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/table/edittip.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/template/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/template/images/bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/template/images/pre0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/template/images/pre1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/template/images/pre2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/template/images/pre3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/template/images/pre4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/template/template.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/template/template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/template/template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/video/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/video/images/center_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/video/images/file-icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/video/images/file-icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/video/images/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/video/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/video/images/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/video/images/left_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/video/images/none_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/video/images/progress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/video/images/right_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/video/images/success.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/video/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/video/video.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/video/video.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/video/video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/webapp/webapp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/wordimage/fClipboard_ueditor.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/wordimage/imageUploader.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/wordimage/tangram.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/wordimage/wordimage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/wordimage/wordimage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/jsp/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/jsp/controller.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/en/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/en/images/addimage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/en/images/alldeletebtnhoverskin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/en/images/alldeletebtnupskin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/en/images/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/en/images/button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/en/images/copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/en/images/deletedisable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/en/images/deleteenable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/en/images/listbackground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/en/images/localimage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/en/images/music.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/en/images/rotateleftdisable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/en/images/rotateleftenable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/en/images/rotaterightdisable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/en/images/rotaterightenable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/en/images/upload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/zh-cn/images/copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/zh-cn/images/localimage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/zh-cn/images/music.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/zh-cn/images/upload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/zh-cn/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/css/ueditor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/css/ueditor.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/dialogbase.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/anchor.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/arrow_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/arrow_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/button-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/cancelbutton.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/charts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/cursor_h.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/cursor_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/cursor_v.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/cursor_v.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/dialog-title-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/filescan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/highlighted.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/icons-all.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/loaderror.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/lock.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/neweditor-tab-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/pagebreak.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/scale.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/sortable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/spacer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/sparator_v.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/table-cell-align.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/tangram-colorpicker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/toolbar_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/unhighlighted.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/upload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/videologo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/word.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/wordpaste.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/iframe.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/SyntaxHighlighter/shCore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/codemirror/codemirror.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/codemirror/codemirror.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/adapters/mootools-adapter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/adapters/mootools-adapter.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/adapters/prototype-adapter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/adapters/prototype-adapter.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/adapters/standalone-framework.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/adapters/standalone-framework.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/highcharts-more.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/highcharts-more.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/highcharts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/highcharts.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/modules/annotations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/modules/annotations.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/modules/canvas-tools.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/modules/canvas-tools.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/modules/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/modules/data.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/modules/drilldown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/modules/drilldown.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/modules/exporting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/modules/exporting.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/modules/funnel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/modules/funnel.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/modules/heatmap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/modules/heatmap.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/modules/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/modules/map.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/modules/no-data-to-display.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/modules/no-data-to-display.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/themes/dark-blue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/themes/dark-green.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/themes/gray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/themes/grid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/themes/skies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/jquery-1.10.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/jquery-1.10.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/jquery-1.10.2.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/snapscreen/UEditorSnapscreen.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/video-js/font/vjs.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/video-js/font/vjs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/video-js/font/vjs.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/video-js/font/vjs.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/video-js/video-js.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/video-js/video-js.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/video-js/video-js.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/video-js/video.dev.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/video-js/video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/webuploader/Uploader.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/webuploader/webuploader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/webuploader/webuploader.custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/webuploader/webuploader.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/webuploader/webuploader.flashonly.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/webuploader/webuploader.flashonly.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/webuploader/webuploader.html5only.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/webuploader/webuploader.html5only.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/webuploader/webuploader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/webuploader/webuploader.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/webuploader/webuploader.withoutimage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/webuploader/webuploader.withoutimage.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/zeroclipboard/ZeroClipboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/zeroclipboard/ZeroClipboard.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/zeroclipboard/ZeroClipboard.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/ueditor.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/ueditor.all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/ueditor.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/ueditor.parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/ueditor.parse.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/adminManage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/deptManage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/employeeManage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/positionManage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/postManage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/shiyanlou/test/SpringMybatisTest.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="194" column="21" lean-forward="true" selection-start-line="190" selection-start-column="8" selection-end-line="194" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/shiyanlou/test/SpringMybatisTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-46">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/db/hrms_db.sql">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/README.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Users\Administrator\.m2\repository" />
+        <option name="mavenHome" value="E:/TOOL/apache-maven-3.5.2-bin" />
+        <option name="userSettingsFile" value="E:\TOOL\apache-maven-3.5.2-bin\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="hrms" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="hrms" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="hrms" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="773" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hrms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hrms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hrms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hrms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hrms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hrms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hrms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hrms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hrms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hrms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hrms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hrms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hrms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hrms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583136893973" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.capture" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 7.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:\Program Files\Java\jdk1.8.0_161\jre" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="hrms:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/hrms" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_hrms_5" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52262" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="hrms:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2df6250a-200d-436e-ad85-252888b9d5a1" name="Default Changelist" comment="" />
+      <created>1583132492197</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583132492197</updated>
+      <workItem from="1583132494182" duration="3872000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3872000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30335367" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.32879046" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32879046" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4531516" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" weight="0.3292683" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="194" column="21" lean-forward="true" selection-start-line="190" selection-start-column="8" selection-end-line="194" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/hrms_db.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/shiyanlou/test/SpringMybatisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>hrms:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>cxttpc</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>hrms</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.alibaba:druid:1.0.24</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
